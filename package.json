@@ -51,7 +51,7 @@
     "@emotion/styled": "^11.14.1",
     "@github/issue-parser": "^2.0.0",
     "@hookform/resolvers": "^5.2.1",
-    "@mui/material": "^7.3.1",
+    "@mui/material": "^7.3.2",
     "@octokit/rest": "^22.0.0",
     "@primer/octicons-react": "^19.15.5",
     "@primer/react": "^37.31.0",
