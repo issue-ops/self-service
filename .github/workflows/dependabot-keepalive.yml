@@ -1,0 +1,19 @@
+name: Dependabot Keep-Alive (org)
+
+on:
+  schedule:
+    - cron: "0 0 1 */3 *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'runner mode: hosted or selfhosted'
+        required: false
+        default: 'hosted'
+
+jobs:
+  call:
+    uses: sujithq-org/keep-dependabot-alive/.github/workflows/reusable-dependabot-keepalive.yml@main
+    with:
+      runs-on: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'selfhosted'
+        && '["self-hosted","dependabot"]' || '["ubuntu-latest"]' }}
+      team-handle: "@sujithq-org/dependency-maintainers"
