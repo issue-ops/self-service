@@ -51,7 +51,7 @@
     "@emotion/styled": "^11.14.1",
     "@github/issue-parser": "^2.0.0",
     "@hookform/resolvers": "^5.2.2",
-    "@mui/material": "^7.3.2",
+    "@mui/material": "^7.3.4",
     "@octokit/rest": "^22.0.0",
     "@primer/octicons-react": "^19.18.0",
     "@primer/react": "^37.31.0",
@@ -71,7 +71,7 @@
     "clsx": "^2.1.1",
     "embla-carousel-react": "^8.6.0",
     "lucide-react": "^0.544.0",
-    "next": "^15.5.4",
+    "next": "^15.5.5",
     "next-themes": "^0.4.6",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
@@ -80,7 +80,7 @@
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7",
     "ts-dedent": "^2.2.0",
-    "zod": "^4.1.11"
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@eslint/compat": "^1.4.0",
