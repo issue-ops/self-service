@@ -33,7 +33,7 @@ jobs:
       # install Node.js and any dependencies.
       - name: Setup Node.js
         id: setup-node
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           cache: npm
           node-version-file: .node-version
