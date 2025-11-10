@@ -86,7 +86,7 @@
     "@eslint/compat": "^1.4.1",
     "@eslint/eslintrc": "^3.3.1",
     "@octokit/openapi-types": "^26.0.0",
-    "@octokit/types": "^15.0.0",
+    "@octokit/types": "^16.0.0",
     "@rollup/plugin-commonjs": "^28.0.6",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.3",
