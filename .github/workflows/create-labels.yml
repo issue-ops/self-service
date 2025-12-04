@@ -16,7 +16,7 @@ jobs:
       # Checkout the repository to get the data file.
       - name: Checkout
         id: checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       # Read the data file to get the list of labels, then create any that are
       # missing from the IssueOps repository.

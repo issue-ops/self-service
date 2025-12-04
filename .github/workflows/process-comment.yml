@@ -32,7 +32,7 @@ jobs:
       # scripts are included in the workspace.
       - name: Checkout
         id: checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       # Since this workflow include custom validation scripts, we need to
       # install Node.js and any dependencies.

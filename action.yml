@@ -42,5 +42,5 @@ outputs:
     description: The new name of the repository
 
 runs:
-  using: node20
+  using: node24
   main: dist/index.js
