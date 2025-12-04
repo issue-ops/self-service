@@ -20,9 +20,8 @@ jest.unstable_mockModule('@octokit/rest', () => {
 
 jest.unstable_mockModule('../../action/utils/issues.js', () => issues)
 
-const { createOrganizationInvitation } = await import(
-  '../../action/enterprise/create-organization-invitation.js'
-)
+const { createOrganizationInvitation } =
+  await import('../../action/enterprise/create-organization-invitation.js')
 
 const { Octokit } = await import('@octokit/rest')
 const mocktokit = jest.mocked(new Octokit())

@@ -20,9 +20,8 @@ jest.unstable_mockModule('@octokit/rest', () => {
 
 jest.unstable_mockModule('../../action/utils/issues.js', () => issues)
 
-const { changeRepositoryVisibility } = await import(
-  '../../action/repository/change-repository-visibility.js'
-)
+const { changeRepositoryVisibility } =
+  await import('../../action/repository/change-repository-visibility.js')
 
 const { Octokit } = await import('@octokit/rest')
 const mocktokit = jest.mocked(new Octokit())
