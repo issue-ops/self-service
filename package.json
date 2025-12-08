@@ -53,7 +53,7 @@
     "@hookform/resolvers": "^5.2.2",
     "@mui/material": "^7.3.5",
     "@octokit/rest": "^22.0.1",
-    "@primer/octicons-react": "^19.18.0",
+    "@primer/octicons-react": "^19.21.1",
     "@primer/react": "^37.31.0",
     "@radix-ui/react-avatar": "^1.1.11",
     "@radix-ui/react-collapsible": "^1.1.12",
