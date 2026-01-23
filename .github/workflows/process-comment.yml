@@ -61,7 +61,7 @@ jobs:
       # If the `validated` label is present, remove it.
       - name: Remove Validated Label
         id: remove-label
-        uses: issue-ops/labeler@v3
+        uses: issue-ops/labeler@v4
         with:
           action: remove
           github_token: ${{ steps.token.outputs.token }}
@@ -131,7 +131,7 @@ jobs:
       - if: ${{ steps.validate.outputs.result == 'success' }}
         name: Add Validated Label
         id: add-label
-        uses: issue-ops/labeler@v3
+        uses: issue-ops/labeler@v4
         with:
           action: add
           github_token: ${{ steps.token.outputs.token }}
