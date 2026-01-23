@@ -99,7 +99,7 @@ jobs:
       # processed by the rest of the workflow.
       - name: Parse Issue body
         id: parse
-        uses: issue-ops/parser@v4
+        uses: issue-ops/parser@v5
         with:
           body: ${{ github.event.issue.body }}
           issue-form-template: ${{ steps.get-template.outputs.template }}
