@@ -110,7 +110,7 @@ jobs:
       # are valid.
       - name: Validate Request
         id: validate
-        uses: issue-ops/validator@v3
+        uses: issue-ops/validator@v4
         env:
           GH_TOKEN: ${{ steps.token.outputs.token }}
           GH_ENTERPRISE_TOKEN: ${{ secrets.GH_ENTERPRISE_TOKEN }}
