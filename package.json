@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@actions/core": "^2.0.2",
-    "@actions/github": "^6.0.1",
+    "@actions/github": "^9.0.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@github/issue-parser": "^2.0.0",
