@@ -73,7 +73,7 @@ jobs:
       # expected labels for each issue form.
       - name: Get Issue Form Template
         id: get-template
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const fs = require('fs')
